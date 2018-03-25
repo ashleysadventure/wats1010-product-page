@@ -31,6 +31,7 @@ header .logophoto {
 
 #about {
   font-family: "Oswald";
+  font-size: large;
 }
 
 #about h3.aboutheader, #product h3.productheader {
@@ -163,7 +164,7 @@ img.testimonial {
 .background {
   padding: 10px;
   border-radius: 10%;
-  background-image: linear-gradient(to right, #FFF, #7b599f);
+  background-image: linear-gradient(to right, #FFF, #e6fff2);
   font-family: "Cherry Wash";
   max-width: 200px;
 }
@@ -183,7 +184,7 @@ img.testimonial {
 }
 
 #about, #product, #testimonials, #contact {
- background-image: linear-gradient(to bottom, #FFF, #2D3E9A);
+ background-image: linear-gradient(to bottom, #FFF, #66ffcc);
   padding-bottom: 70px;
   border-top: 20px solid rgba(189, 189, 189, 0.5);
 }
@@ -222,7 +223,7 @@ img.testimonial {
   max-width: 100%;
   padding-top: 20px; 
   padding-bottom: 20px;
-  background-image: linear-gradient(to left, #c59440, #F8FDE7);
+  background-image: linear-gradient(to left, #c59440, #5c00e6);
   
 }
 
@@ -244,7 +245,7 @@ img.testimonial {
 
 
 #space {
-  background-image: url("newbackground.png");
+  background-image: url("img/cloud_ladders.jpg");
       height: 500px;
     max-width: 100;
     background-attachment: fixed;
@@ -253,7 +254,7 @@ img.testimonial {
 }
 
 #space2 {
-  background-image: url("spacephoto2.jpg");
+  background-image: url("img/pink_clouds.jpg");
       height: 500px;
     max-width: 100;
     background-attachment: fixed;
@@ -262,7 +263,7 @@ img.testimonial {
 }
 
 #space3 {
-  background-image: url("spacephoto4.jpg");
+  background-image: url("img/pink_desktop.jpg");
       height: 500px;
     max-width: 100;
     background-attachment: fixed;
