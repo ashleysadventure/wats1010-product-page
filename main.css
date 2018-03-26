@@ -31,7 +31,8 @@ header .logophoto {
 
 #about {
   font-family: "Oswald";
-  font-size: large;
+  font-size: xx-large;
+  text-align: center-right;
 }
 
 #about h3.aboutheader, #product h3.productheader {
@@ -145,7 +146,8 @@ body {
 }
 
 #about p {
-  font-size: 16px;
+  font-size: 25px;
+  font-family: "Alegraya Sans SC";
 }
 
 .img-responsive {
@@ -211,21 +213,29 @@ img.testimonial {
 .purchase {
   text-align: center;
   margin-top: 50px;
+  margin: auto;
   padding: 20px;  
 }
 
-.purchasebox {
+.app-guys {
+  position: relative;
+    right: 850px;
+    border: 3px solid #73AD21;
+}
+
+/*.purchasebox {
+  text-align: center;
     border: 3px black solid;
   border-radius: 15%;
-      width: 400px;
+      width: 180px;
     margin: auto;
-    height: 290px;
+    height: 190px;
   max-width: 100%;
   padding-top: 20px; 
   padding-bottom: 20px;
   background-image: linear-gradient(to left, #c59440, #5c00e6);
   
-}
+}*/
 
 .purchase .purchasepadding {
   padding-top: 120px;
@@ -288,7 +298,13 @@ img.testimonial {
 
 /*
 Aside Start */
-
+.footer-content {
+  font-family: "Cherry Wash";
+  position: fixed;
+  bottom: 30px;
+  right: 0;
+  width: 400px;
+}
 #social {
   position: fixed;
   bottom: 0;
